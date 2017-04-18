@@ -1,0 +1,38 @@
+body {
+    text-align: center;
+    max-width: $body-max-width;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    @media (min-width: $break-medium) {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    li {
+        margin: 1em auto;
+    }
+}
+
+input[type="text"] {
+    border: 1px solid grey;
+    border-radius: 3px;
+    width: 50%;
+    font-size: 0.9em;
+    height: 1em;
+    padding: 0.5em;
+    margin: 1.5em auto;
+    @media (min-width: $break-medium) {
+        font-size: 1.25em;
+    }
+    @media (min-width: $break-large) {
+        width: 460px;
+        font-size: 16pt;
+    }
+}
