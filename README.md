@@ -24,12 +24,23 @@ This app was tested using [HTML](https://validator.w3.org/) and [CSS](https://ji
 
 ## Sreenshots
 
+Home - Large Display
 ![Home - Large Display](screenshots/home_large.png)
+
+Home - Medium Display
 ![Home - Medium Display](screenshots/home_medium.png)
+
+Home - Small Display
 ![Home - Small Display](screenshots/home_small.png)
+
+Search Box Demo
 ![Seach Box Demo](screenshots/search_demo.png)
-![Light Box - Large Display](screenshots/lightbox_large.png)
-![Light Box - Small Display](screenshots/lightbox_small.png)
+
+Lightbox - Large Display
+![Lightbox - Large Display](screenshots/lightbox_large.png)
+
+Lightbox - Small Display
+![Lightbox - Small Display](screenshots/lightbox_small.png)
 
 ## License
 
