@@ -1,0 +1,82 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Interactive Photo Gallery</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="css/app.min.css">
+</head>
+
+<body>
+
+  <form>
+    <input type="text" placeholder="Search" id="search-box" class="search-box">
+  </form>
+
+  <div class="gallery">
+    <ul class="gallery-container">
+      <li class="gallery-item">
+        <a href="img/photos/01.jpg" data-lightbox="lightbox" data-caption="I love hay bales. Took this snap on a drive through the countryside past some straw fields."><img src="img/thumbnails/01.jpg" alt="Hay Bales" class="gallery-image"></a>
+      </li>
+      <li class="gallery-item">
+        <a href="img/photos/02.jpg"  data-lightbox="lightbox" data-caption="The lake was so calm today. We had a great view of the snow on the mountains from here."><img src="img/thumbnails/02.jpg" alt="lake" class="gallery-image"></a>
+      </li>
+      <li class="gallery-item">
+        <a href="img/photos/03.jpg" data-lightbox="lightbox" data-caption="I hiked to the top of the mountain and got this picture of the canyon and trees below"><img src="img/thumbnails/03.jpg" alt="canyon" class="gallery-image"></a>
+      </li>
+      <li class="gallery-item">
+        <a href="img/photos/04.jpg" data-lightbox="lightbox" data-caption="It was amazing to see an iceberg up close, it was so cold but didn’t snow today."><img src="img/thumbnails/04.jpg" alt="iceberg" class="gallery-image"></a>
+      </li>
+      <li class="gallery-item">
+        <a href="img/photos/05.jpg" data-lightbox="lightbox" data-caption="The red cliffs were beautiful. It was really hot in the desert but we did a lot of walking through the canyons."><img src="img/thumbnails/05.jpg" alt="desert" class="gallery-image"></a>
+      </li>
+      <li class="gallery-item">
+        <a href="img/photos/06.jpg" data-lightbox="lightbox" data-caption="Fall is coming, I love when the leaves on the trees start to change color."><img src="img/thumbnails/06.jpg" alt="fall" class="gallery-image"></a>
+      </li>
+      <li class="gallery-item">
+        <a href="img/photos/07.jpg" data-lightbox="lightbox" data-caption="I drove past this plantation yesterday, everything is so green!"><img src="img/thumbnails/07.jpg" alt="plantation" class="gallery-image"></a>
+      </li>
+      <li class="gallery-item">
+        <a href="img/photos/08.jpg" data-lightbox="lightbox" data-caption="My summer vacation to the Oregon Coast. I love the sandy dunes!"><img src="img/thumbnails/08.jpg" alt="dunes" class="gallery-image"></a>
+      </li>
+      <li class="gallery-item">
+        <a href="img/photos/09.jpg" data-lightbox="lightbox" data-caption="We enjoyed a quiet stroll down this countryside lane."><img src="img/thumbnails/09.jpg" alt="countryside lane" class="gallery-image"></a>
+      </li>
+      <li class="gallery-item">
+        <a href="img/photos/10.jpg" data-lightbox="lightbox" data-caption="Sunset at the coast! The sky turned a lovely shade of orange."><img src="img/thumbnails/10.jpg" alt="sunset" class="gallery-image"></a>
+      </li>
+      <li class="gallery-item">
+        <a href="img/photos/11.jpg" data-lightbox="lightbox" data-caption="I did a tour of a cave today and the view of the landscape below was breathtaking."><img src="img/thumbnails/11.jpg" alt="cave" class="gallery-image"></a>
+      </li>
+      <li class="gallery-item">
+        <a href="img/photos/12.jpg" data-lightbox="lightbox" data-caption="I walked through this meadow of bluebells and got a good view of the snow on the mountain before the fog came in."><img src="img/thumbnails/12.jpg" alt="bluebells" class="gallery-image"></a>
+      </li>
+    </ul>
+  </div>
+
+  <div id="overlay">
+    <div class="lightbox-left">
+      <div class="nav-container">
+        <img src="img/navigation/prev.png" alt="next arrow picture" id="lightbox-prev" class="nav-image-left">
+      </div>
+    </div>
+    <div class="lightbox-center">
+      <div class="image-container">
+        <img src="" alt="" id="lightbox-image">
+        <p id="lightbox-caption"></p>
+      </div>
+    </div>
+    <div class="lightbox-right">
+      <div class="nav-container">
+        <img src="img/navigation/next.png" alt="previous arrow picture" id="lightbox-next" class="nav-image-right">
+      </div>
+    </div>
+  </div>
+
+  <script src="js/app.min.js"></script>
+</body>
+
+</html>
