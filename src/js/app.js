@@ -128,7 +128,7 @@ $('#search-box').keyup(function () {
     showImage();
 });
 
-$('.gallery-item a').click(function () {
+$('.gallery-item a').click(function (event) {
     event.preventDefault();
     var currentHref = $(this).attr("href");
     updateLightboxNav(currentHref);
