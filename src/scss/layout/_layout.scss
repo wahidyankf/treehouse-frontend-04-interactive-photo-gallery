@@ -1,0 +1,44 @@
+#overlay{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    // display: flex;
+    display: none;
+}
+
+.lightbox-left, .lightbox-center, .lightbox-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lightbox-left{
+    width: 10%;
+}
+
+.lightbox-center{
+    width: 80%;
+    margin: auto 0.5em;
+}
+
+.lightbox-right{
+    width: 10%;
+}
+
+#lightbox-image{
+    max-width: 100%;
+}
+
+#lightbox-caption{
+    max-width: 600px;
+    margin: auto;
+    margin-top: 1em;
+    @media(min-width: $break-medium){
+        max-width: 600px;
+    }
+    @media(min-width: $break-extra-large){
+        max-width: 75%;
+    }
+}

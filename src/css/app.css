@@ -415,4 +415,68 @@ input[type="text"] {
       width: 460px;
       font-size: 16pt; } }
 
+img {
+  max-width: 100%; }
+
+#overlay {
+  background: rgba(0, 0, 0, 0.85); }
+
+#lightbox-caption {
+  color: white;
+  font-family: Courier New, Courier, monospace;
+  line-height: 1.5em;
+  font-size: 0.8em; }
+  @media (min-width: 768px) {
+    #lightbox-caption {
+      font-size: 1.1em; } }
+  @media (min-width: 960px) {
+    #lightbox-caption {
+      font-size: 1.25em; } }
+  @media (min-width: 1280px) {
+    #lightbox-caption {
+      font-size: 1.5em; } }
+
+#overlay {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none; }
+
+.lightbox-left, .lightbox-center, .lightbox-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.lightbox-left {
+  width: 10%; }
+
+.lightbox-center {
+  width: 80%;
+  margin: auto 0.5em; }
+
+.lightbox-right {
+  width: 10%; }
+
+#lightbox-image {
+  max-width: 100%; }
+
+#lightbox-caption {
+  max-width: 600px;
+  margin: auto;
+  margin-top: 1em; }
+  @media (min-width: 768px) {
+    #lightbox-caption {
+      max-width: 600px; } }
+  @media (min-width: 1280px) {
+    #lightbox-caption {
+      max-width: 75%; } }
+
 /*# sourceMappingURL=app.css.map */
