@@ -36,8 +36,8 @@ This app was tested using [HTML](https://validator.w3.org/) and [CSS](https://ji
 ### Search Box Demo
 ![Seach Box Demo](screenshots/search_demo.png)
 
-### Lightbox - Large Display
-![Lightbox - Large Display](screenshots/lightbox_large.png)
+### Lightbox - Medium Display
+![Lightbox - Medium Display](screenshots/lightbox_medium.png)
 
 ### Lightbox - Small Display
 ![Lightbox - Small Display](screenshots/lightbox_small.png)
