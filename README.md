@@ -22,7 +22,7 @@ The source of this app can be seen in the src folder of master branch.
 
 This app was tested using [HTML](https://validator.w3.org/) and [CSS](https://jigsaw.w3.org/css-validator/) validator.
 
-Tested in Google Chrome.
+Tested in Google Chrome, Mozilla Firefox, Safari.
 
 ## Sreenshots
 
